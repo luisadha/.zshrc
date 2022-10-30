@@ -1,4 +1,4 @@
-# .zshrc
+# sdcard/.zshrc
 
 1. Install ccbins magisk module
    - install binary zsh
