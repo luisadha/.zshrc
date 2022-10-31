@@ -1,5 +1,8 @@
 # sdcard/.zshrc
 
+# ZSHRC By Anon-Exploiter but patch version for without oh-my-zsh framework
+# Sm-g130hn (Terminal Emulator with mkshrc by 7175 MOD)
+
 1. Install ccbins magisk module
    - install binary zsh
 
