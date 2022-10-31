@@ -4,7 +4,7 @@
 # patch by luisadha
 compinit () {
      #undefinied
-     builtin autoload -XUz /data/local/ccbinsbackup/system/usr/share/zsh/functions
+     builtin autoload -XUz /data/adb/modules/ccbins/system/usr/share/zsh/functions
 }
 
 
