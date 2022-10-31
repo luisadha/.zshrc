@@ -1,15 +1,11 @@
 # ~/.zshrc file for zsh non-login shells.
 # see /usr/share/doc/zsh/examples/zshrc for examples
 
-# patch by luisadha
-compinit () {
-     #undefinied
-     builtin autoload -XUz /data/local/ccbinsbackup/system/usr/share/zsh/functions
-}
+# source-code https://gist.github.com/Anon-Exploiter/4e12193df0099183d18720c6471d571a
 
 
 setopt autocd              # change directory just by typing its name
-#setopt correct            # auto correct mistakes
+setopt correct            # auto correct mistakes
 setopt interactivecomments # allow comments in interactive mode
 setopt ksharrays           # arrays start at 0
 setopt magicequalsubst     # enable filename expansion for arguments of the form ‘anything=expression’
@@ -36,8 +32,11 @@ bindkey '^[[6~' end-of-buffer-or-history          # page down
 bindkey '^[[Z' undo                               # shift + tab undo last action
 
 # enable completion features
+
 autoload -Uz compinit
-compinit -d ~/.cache/zcompdump
+rm -f ~/.cache/zcompdump # patch by luisadha
+
+
 zstyle ':completion:*:*:*:*:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' # case insensitive tab completion
 
@@ -79,7 +78,7 @@ if [ -n "$force_color_prompt" ]; then
 	# a case would tend to support setf rather than setaf.)
 	color_prompt=yes
     else
-	color_prompt=
+	# color_prompt= # patch by luisadha
     fi
 fi
 
@@ -192,9 +191,9 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -CF'
+alias ll='busybox ls -l' # patch by luisadha
+alias la='busybox ls -A' # patch by luisadha
+alias l='busyobox ls -CF' # patch by luisadha
 
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
