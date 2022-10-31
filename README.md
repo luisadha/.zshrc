@@ -3,11 +3,16 @@
 # ZSHRC By Anon-Exploiter but patch version for without oh-my-zsh framework
 # Sm-g130hn (Terminal Emulator with mkshrc by 7175 MOD)
 
-1. Install ccbins magisk module
-   - install binary zsh
+## Requirement :
 
-2. Copy these files to your phone under '/sdcard'
+1. Zsh up to date installed 
 
-3. extract .zsh folder zip to '/sdcard' rename with .zsh
+2. Mkshrc 7175 origin or patch version by M3P
 
+
+## Usage
+
+1. Copy these files {/sdcard/.zshrc, /sdcard/.zcompdump, /sdcard/.cache/zcompdump} to your phone under '/sdcard'
+
+2. In the terminal emulator wait for mkshrc to finish loading, then run the zsh shell by typing zsh
 done
