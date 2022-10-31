@@ -1,6 +1,7 @@
 # ~/.zshrc file for zsh non-login shells.
 # see /usr/share/doc/zsh/examples/zshrc for examples
 
+# source-code https://gist.github.com/Anon-Exploiter/4e12193df0099183d18720c6471d571a
 
 
 setopt autocd              # change directory just by typing its name
@@ -77,7 +78,7 @@ if [ -n "$force_color_prompt" ]; then
 	# a case would tend to support setf rather than setaf.)
 	color_prompt=yes
     else
-	color_prompt=
+	# color_prompt= # patch by luisadha
     fi
 fi
 
@@ -190,9 +191,9 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -CF'
+alias ll='busybox ls -l' # patch by luisadha
+alias la='busybox ls -A' # patch by luisadha
+alias l='busyobox ls -CF' # patch by luisadha
 
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
