@@ -43,10 +43,9 @@ Fork from https://gist.github.com/Anon-Exploiter/4e12193df0099183d18720c6471d571
 - use monospaced font 
 
 
+check your settings via inpreference.rc
 
-
-
-
+https://gist.githubusercontent.com/luisadha/21aa39ea4cdf879b034e5823cca83927/raw/e82b8b09da978b97481e6225f640476cdb99e9c9/inpreference.rc
 
 
 
