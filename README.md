@@ -47,7 +47,11 @@ check your settings via inpreference.rc
 
 at initial command paste this code
 
-``` source inpreference.rc```
+```
+source /sdcard/download/inpreference.rc
+```
+
+download here!
 
 https://gist.githubusercontent.com/luisadha/21aa39ea4cdf879b034e5823cca83927/raw/fa8f1e75f495924e009d5d690d22818caa79465c/inpreference.rc
 
