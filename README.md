@@ -1,15 +1,21 @@
 # sdcard/.zshrc
 
-# ZSHRC By Anon-Exploiter but patch version for without oh-my-zsh framework
+# Minimal ZSHRC By Anon-Exploiter lite version it's without oh-my-zsh framework
+
+# Credits 
+
+- Anon-Exploiter (Author)
+- luisadha (editor)
 
 # Testing
+
 Device : Sm-g130hn
 
 Terminal : Terminal Emulator
 
 Shell : mkshrc MOD by 7175@xda-devoloper
 
-Root : Magisk v 23.0 with module ccbins + (zsh)
+Root : Magisk v 23.0 with module ccbins + (zsh latest version)
 
 
 Fork from https://gist.github.com/Anon-Exploiter/4e12193df0099183d18720c6471d571a
