@@ -1,7 +1,16 @@
 # sdcard/.zshrc
 
 # ZSHRC By Anon-Exploiter but patch version for without oh-my-zsh framework
-# Sm-g130hn (Terminal Emulator with mkshrc by 7175 MOD)
+
+# Testing
+Device : Sm-g130hn
+
+Terminal : Terminal Emulator
+
+Shell : mkshrc MOD by 7175@xda-devoloper
+
+Root : Magisk v 23.0 with module ccbins + (zsh)
+
 
 Fork from https://gist.github.com/Anon-Exploiter/4e12193df0099183d18720c6471d571a
 
