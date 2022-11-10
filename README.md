@@ -37,7 +37,7 @@ source /sdcard/download/inpreference.rc
 
 download here!
 
-https://gist.githubusercontent.com/luisadha/21aa39ea4cdf879b034e5823cca83927/raw/fa8f1e75f495924e009d5d690d22818caa79465c/inpreference.rc
+https://gist.githubusercontent.com/luisadha/21aa39ea4cdf879b034e5823cca83927/raw/834955e32a58502064f4775ea5040115cbfee601/inpreference.rc
 
 ## Testing
 
