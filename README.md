@@ -13,6 +13,7 @@ Root : Magisk v 23.0 with module ccbins + (zsh)
 
 
 Fork from https://gist.github.com/Anon-Exploiter/4e12193df0099183d18720c6471d571a
+
 Link Mkshrc Mod https://forum.xda-developers.com/t/shell-mksh-scripting-mksh-r50e-static-full-mkshrc_mods.2770804/page-2
 See branch path 2
 
