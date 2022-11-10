@@ -51,13 +51,6 @@ setopt hist_verify            # show command with history expansion to user befo
 #setopt share_history         # share command history data
 
 
-if [[ $EUID -ne 0 ]]; then
-   export HOME=${HOME}
-else
-   export HOME=/sdcard
-fi
-
-
 # force zsh to show the complete history
 alias history="history 0"
 
