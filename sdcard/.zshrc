@@ -51,9 +51,10 @@ setopt hist_verify            # show command with history expansion to user befo
 #setopt share_history         # share command history data
 
 
-
-if [[ ${EUID} == 0 ]] ; then
-export HOME=/sdcard
+if [[ $EUID -ne 0 ]]; then
+   export HOME=${HOME}
+else
+   export HOME=/sdcard
 fi
 
 
@@ -209,6 +210,3 @@ if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
 
-function setenv () {
-  eval export "\"$1\"""=\"\$2""
-}
