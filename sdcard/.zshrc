@@ -50,6 +50,13 @@ setopt hist_ignore_space      # ignore commands that start with space
 setopt hist_verify            # show command with history expansion to user before running it
 #setopt share_history         # share command history data
 
+
+
+if [[ ${EUID} == 0 ]] ; then
+export HOME=/sdcard
+fi
+
+
 # force zsh to show the complete history
 alias history="history 0"
 
@@ -201,3 +208,7 @@ if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     # change suggestion color
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
+
+function setenv () {
+  eval export "\"$1\"""=\"\$2""
+}
