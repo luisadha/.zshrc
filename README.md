@@ -32,7 +32,25 @@ See branch path 2
 
 ## Usage
 
+
 1. Copy these files {/sdcard/.zshrc, /sdcard/.zcompdump, /sdcard/.cache/zcompdump} to your phone under '/sdcard'
 
-2. In the terminal emulator wait for mkshrc to finish loading, then run the zsh shell by typing zsh
-done
+2. Set your terminal with the following rules:
+
+
+
+
+- export TERM=xterm-256color
+
+-export HOME=/sdcard
+- Check UTF-8 support
+- use monospaced font 
+
+
+
+
+
+
+
+
+
