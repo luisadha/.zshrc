@@ -3,6 +3,7 @@
 # ZSHRC By Anon-Exploiter but patch version for without oh-my-zsh framework
 # Sm-g130hn (Terminal Emulator with mkshrc by 7175 MOD)
 
+Fork from https://gist.github.com/Anon-Exploiter/4e12193df0099183d18720c6471d571a
 
 See branch path 2
 
