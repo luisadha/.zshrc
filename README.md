@@ -34,7 +34,7 @@ Fork from https://gist.github.com/Anon-Exploiter/4e12193df0099183d18720c6471d571
 
 1. Copy these files {/sdcard/.zshrc, /sdcard/.zcompdump, /sdcard/.cache/zcompdump} to your phone under '/sdcard'
 
-2. Set your terminal with the following rules:
+2. Set your terminal with the following these:
 
 
 - export TERM=xterm-256color
@@ -45,7 +45,11 @@ Fork from https://gist.github.com/Anon-Exploiter/4e12193df0099183d18720c6471d571
 
 check your settings via inpreference.rc
 
-https://gist.githubusercontent.com/luisadha/21aa39ea4cdf879b034e5823cca83927/raw/e82b8b09da978b97481e6225f640476cdb99e9c9/inpreference.rc
+at initial command paste this code
+
+``` source inpreference.rc```
+
+https://gist.githubusercontent.com/luisadha/21aa39ea4cdf879b034e5823cca83927/raw/fa8f1e75f495924e009d5d690d22818caa79465c/inpreference.rc
 
 
 
