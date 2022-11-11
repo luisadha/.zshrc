@@ -26,16 +26,13 @@ Zsh 5.0.5
 - Check UTF-8 support
 - use monospaced font 
 
-
-check your settings via inpreference.rc
-
-at initial command paste this code
+ or quick setups by paste this code at initial command in terminal emulator
 
 ```
 source /sdcard/download/inpreference.rc
 ```
 
-download here!
+download inpreference here!
 
 https://gist.githubusercontent.com/luisadha/21aa39ea4cdf879b034e5823cca83927/raw/834955e32a58502064f4775ea5040115cbfee601/inpreference.rc
 
