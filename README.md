@@ -1,6 +1,6 @@
 # $EXTERNAL_STORAGE/.zshrc
 
-# Minimal ZSHRC By Anon-Exploiter lite version it's work without oh-my-zsh framework
+# Minimalistic ZSHRC By Anon-Exploiter patch version for (Android) Terminal Emulator 
 
 If you just want to see the beautiful view from the kali prompt, so far I tested no errors or bugs.
 
